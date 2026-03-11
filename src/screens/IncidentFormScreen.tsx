@@ -1,15 +1,5 @@
 import { useRef, useState } from "react";
-import {
-  ScrollView,
-  View,
-  Text,
-  StyleSheet,
-  Pressable,
-  Image,
-  Alert,
-  TextInput,
-  ActivityIndicator,
-} from "react-native";
+import { ScrollView, View, Text, StyleSheet, Pressable, Image, Alert, TextInput, ActivityIndicator,} from "react-native";
 import { CameraView, useCameraPermissions } from "expo-camera";
 import * as Location from "expo-location";
 import MapView, { Marker } from "react-native-maps";
