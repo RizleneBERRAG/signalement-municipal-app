@@ -1,5 +1,5 @@
-import IncidentFormScreen from "./src/screens/IncidentFormScreen";
+import JournalFormScreen from "./src/screens/JournalFormScreen";
 
 export default function App() {
-  return <IncidentFormScreen />;
+  return <JournalFormScreen />;
 }

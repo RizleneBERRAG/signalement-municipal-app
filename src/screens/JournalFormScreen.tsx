@@ -7,7 +7,7 @@ import * as Calendar from "expo-calendar";
 import { submitIncident } from "../services/api";
 import { Coordinates, Incident } from "../types";
 
-export default function IncidentFormScreen() {
+export default function JournalFormScreen() {
   const [permission, requestPermission] = useCameraPermissions();
   const [showCamera, setShowCamera] = useState(false);
   const [photoUri, setPhotoUri] = useState<string | null>(null);
