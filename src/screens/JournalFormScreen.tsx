@@ -126,6 +126,7 @@ export default function JournalFormScreen() {
       if (!response.success) {
         throw new Error(response.error || "Erreur réseau");
       }
+      
 
       await addEventToCalendar();
 
