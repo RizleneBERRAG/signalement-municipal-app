@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 export type Coordinates = {
   latitude: number;
   longitude: number;
@@ -17,6 +19,7 @@ export type ApiResponse<T> = {
   error?: string;
 };
 
+>>>>>>> 33413da8c315e01b6702cad332c74326ad3f60a3
 // Coordonnées GPS d'un lieu
 export interface Coordinates {
   latitude: number
@@ -37,5 +40,9 @@ export interface ApiResponse<T> {
   success: boolean
   data?: T
   error?: string
+<<<<<<< HEAD
+}
+=======
 }
 
+>>>>>>> 33413da8c315e01b6702cad332c74326ad3f60a3

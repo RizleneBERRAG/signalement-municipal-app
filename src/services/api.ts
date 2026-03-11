@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 
 export type Coordinates = {
   latitude: number;
@@ -18,6 +20,7 @@ export type ApiResponse<T> = {
   error?: string;
 };
 
+>>>>>>> 33413da8c315e01b6702cad332c74326ad3f60a3
 import axios from "axios"
 import { Incident, ApiResponse } from "../types"
 
@@ -51,5 +54,9 @@ export const submitIncident = async (
     }
 
   }
+<<<<<<< HEAD
+}
+=======
 }
 
+>>>>>>> 33413da8c315e01b6702cad332c74326ad3f60a3
