@@ -90,7 +90,7 @@ export default function IncidentFormScreen() {
     const endDate = new Date(startDate.getTime() + 60 * 60 * 1000);
 
     await Calendar.createEventAsync(defaultCalendar.id, {
-      title: "🔧 Suivi Intervention",
+      title: "Suivi Intervention",
       startDate,
       endDate,
       notes: description || "Incident municipal signalé.",
@@ -182,14 +182,14 @@ export default function IncidentFormScreen() {
             style={[styles.actionButton, styles.actionButtonBlue]}
             onPress={() => setShowCamera(true)}
           >
-            <Text style={styles.actionButtonText}>📷 Ouvrir la caméra</Text>
+            <Text style={styles.actionButtonText}>Ouvrir la caméra</Text>
           </Pressable>
 
           <Pressable
             style={[styles.actionButton, styles.actionButtonGreen]}
             onPress={getLocation}
           >
-            <Text style={styles.actionButtonText}>📍 Récupérer la position GPS</Text>
+            <Text style={styles.actionButtonText}>Récupérer la position GPS</Text>
           </Pressable>
         </View>
 
@@ -251,7 +251,7 @@ export default function IncidentFormScreen() {
           {loading ? (
             <ActivityIndicator color="#fff" />
           ) : (
-            <Text style={styles.actionButtonText}>📤 Envoyer le signalement</Text>
+            <Text style={styles.actionButtonText}>Envoyer le signalement</Text>
           )}
         </Pressable>
       </View>
